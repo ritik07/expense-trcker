@@ -4,7 +4,7 @@ export const Header = () => {
     return (
         <>
         <h2>
-            Expense Tracker 
+            Expense Tracker  2.0
         </h2>
         </>
     )
