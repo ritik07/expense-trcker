@@ -12,6 +12,11 @@ export default (state, action) => {
                 ...state,
                 transactions: [action.payload, ...state.transactions],
             };
+                    case "REMOVE_TRANS":
+            return {
+                ...state,
+                transactions: [action.payload, ...state.transactions.remove],
+            };
         default:
             return state;
     }
