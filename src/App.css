@@ -39,6 +39,11 @@ h4 {
     text-transform: uppercase;
 }
 
+h5 {
+    margin: 0;
+    text-transform: uppercase;
+}
+
 .inc-exp-container {
     background-color: #fff;
     box-shadow: var(--box-shadow);
@@ -126,6 +131,9 @@ input[type='number'] {
 }
 
 .list li.minus {
+    border-right: 5px solid #c0392b;
+}
+.list li.equal {
     border-right: 5px solid #c0392b;
 }
 
