@@ -6,7 +6,7 @@ export const Header = () => {
         <h2>
             Expense Tracker 
         </h2>
-        <p>wew</p>
+        <p>wew2</p>
         </>
     )
 } 
