@@ -21,6 +21,7 @@ function App() {
         <IncomeExpense/>
         <TransactionList/>
         <AddTransaction/>
+      { id: 4, text: 'Camera', amount: 150 }
       </div>
     </GlobalProvider>
     </Card>
