@@ -16,6 +16,7 @@ function App() {
       <Header/> 
       <div className="container">
         <Balance/>
+     <Balancer/>
             <Balancing/>
         <IncomeExpense/>
         <TransactionList/>
